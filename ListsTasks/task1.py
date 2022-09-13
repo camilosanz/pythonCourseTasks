@@ -14,11 +14,12 @@ def list_length():
     result = numbers * letters
     return result
 
-answer = [ (letter+lowercase[indexletter]+'0'+str(index)) 
-if index < 10 else (letter+lowercase[indexletter]+str(index)) 
-for letter in lowercase 
-for indexletter in range(len(lowercase))
-for index in range(0,100) ]
+# answer = [ (letter+lowercase[indexletter]+'0'+str(index)) 
+# if index < 10 else (letter+lowercase[indexletter]+str(index)) 
+# for letter in lowercase 
+# for indexletter in range(len(lowercase))
+# for index in range(0,100) ]
+answer = [l1+l2+n1+n2 for l1 in lowercase for l2 in lowercase for n1 in digits for n2 in digits]
 
 # for letter in lowercase:
 #     for indexletter in range(len(lowercase)):
