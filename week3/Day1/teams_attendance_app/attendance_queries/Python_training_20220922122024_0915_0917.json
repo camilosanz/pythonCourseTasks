@@ -1,0 +1,13 @@
+{
+    "meeting_title": "Python training",
+    "data": [
+        {
+            "date": "09/15/2022",
+            "participants": -99999
+        },
+        {
+            "date": "09/16/2022",
+            "participants": 9
+        }
+    ]
+}
